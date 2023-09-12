@@ -1,0 +1,139 @@
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #FF5733;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin-top: 1em;
+    margin-left: 1em;
+    text-align: left;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #FF5733;
+}
+
+.menu li:nth-child(5),
+li:nth-child(6) {
+    float: right;
+}
+
+.main h2 {
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center; /* Centralize o conteúdo do formulário */
+}
+
+/* Estilos para rótulos de campo */
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-align: left; /* Alinhe os rótulos à esquerda */
+}
+
+/* Estilos para campos de entrada de texto e senha */
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilos para o botão de envio */
+.form-submit {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Estilos para o botão de envio ao passar o mouse */
+.form-submit:hover {
+    background-color: #005bb7;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
