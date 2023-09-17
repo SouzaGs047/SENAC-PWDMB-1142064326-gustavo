@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela de Cadastro</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles_cadastro.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1>Gerenciamento de Eventos</h1>
+
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">Página Inicial</a></li>
+        <li><a href="#">Eventos</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="telaDeCadastro.html">Cadastro</a></li>
+        <li><a href="telaDeLogin.html">Login</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <main class="main">
+    <h2>Tela de Cadastro</h2>
+    
+    <form action="#" method="post" class="registration-form">
+      <label for="fullname" class="form-label">Nome Completo:</label>
+      <input type="text" id="fullname" name="fullname" class="form-input" required>
+
+      <label for="email" class="form-label">E-mail:</label>
+      <input type="text" id="email" name="email" class="form-input" required>
+
+      <label for="password" class="form-label">Senha:</label>
+      <input type="password" id="password" name="password" class="form-input" required>
+
+      <input type="submit" value="Cadastrar" class="form-submit">
+  </form>
+
+  </main>
+  <script type="module" src="js/telaDeCadastro.js"></script>
+  
+  <footer class="footer">
+    &copy; 2023 Gerenciamento de Eventos - Todos os direitos reservados
+  </footer>
+</body>
+
+</html>
