@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
   
       alert("Cadastro realizado com sucesso!");
   
-      // Limpar os campos após o cadastro bem-sucedido
       document.getElementById("fullname").value = "";
       document.getElementById("email").value = "";
       document.getElementById("password").value = "";
