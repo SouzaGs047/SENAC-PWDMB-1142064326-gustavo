@@ -9,12 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
       const email = document.getElementById("email").value;
       const password = document.getElementById("password").value;
   
-      // Recuperar os dados do localStorage
       const storedUser = JSON.parse(localStorage.getItem("userData"));
   
       if (storedUser && email === storedUser.email && password === storedUser.password) {
         alert("Login bem-sucedido!");
-        // Você pode redirecionar para a página de destino após o login bem-sucedido aqui.
+        // Futuramente implementar tela após Login.
       } else {
         alert("Credenciais inválidas. Tente novamente.");
       }
