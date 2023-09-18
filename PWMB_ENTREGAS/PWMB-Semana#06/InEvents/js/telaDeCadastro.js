@@ -9,8 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const fullname = document.getElementById("fullname").value;
       const email = document.getElementById("email").value;
       const password = document.getElementById("password").value;
-  
-      // Armazenar os dados no localStorage
+
       const user = { fullname, email, password };
       localStorage.setItem("userData", JSON.stringify(user));
   
