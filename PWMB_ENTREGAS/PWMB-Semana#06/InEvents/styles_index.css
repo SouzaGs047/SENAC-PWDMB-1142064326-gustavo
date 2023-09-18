@@ -45,8 +45,6 @@
   margin: 0;
 }
 
-
-/* Estilo para o menu de navegação principal */
 .menu {
   list-style: none;
   padding: 0;
@@ -74,7 +72,6 @@
   float: right;
 }
 
-/* Estilo para o título da seção principal */
 .main h2 {
   font-size: 28px;
   margin-top: 20px;
@@ -95,15 +92,15 @@
   border: 1px solid #ddd;
   padding: 20px;
   border-radius: 5px;
-  flex-basis: calc(33.33% - 100px); /* 3 eventos por linha com espaço entre eles */
+  flex-basis: calc(33.33% - 100px); 
   margin-left: 50px;
   margin-right: 50px;
-  margin-bottom: 20px; /* Adicione espaço entre as linhas de eventos */
-  box-sizing: border-box; /* Garante que a largura inclua padding e borda */
+  margin-bottom: 20px; 
+  box-sizing: border-box;
 }
 
 .event img {
-  max-width: 100%; /* Todas as imagens têm largura máxima de 100% */
+  max-width: 100%; 
   height: 21em;
 }
 
