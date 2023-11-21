@@ -1,0 +1,22 @@
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.event {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  flex-basis: calc(33.33% - 100px);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.event img {
+  max-width: 100%;
+  height: 21em;
+}

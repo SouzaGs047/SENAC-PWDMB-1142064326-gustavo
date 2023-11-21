@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerenciamento de Eventos</title>
+  <link rel="stylesheet" href="css/layout_pagina/reset.css">
+  <link rel="stylesheet" href="css/layout_pagina/cabecalho.css">
+  <link rel="stylesheet" href="css/layout_pagina/footer.css">
+  <link rel="stylesheet" href="css/styles_index.css">
+  <link rel="stylesheet" href="css/modal.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1>Gerenciamento de Eventos</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Página Inicial</a></li>
+        <li><a href="#">Eventos</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="telaDeCadastro.html">Cadastro</a></li>
+        <li><a href="telaDeLogin.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <h2>Principais Eventos</h2>
+    <section class="event-list">
+      <section class="event" data-evento="Evento 1">
+        <img src="img/The Town.jpg" alt="Evento 1">
+        <h3>Evento 1</h3>
+        <p>Data: 10 de outubro de 2023</p>
+        <p>Local: Localização do Evento 1</p>
+        <p>Descrição: DESCRIÇÃO DO EVENTO 1.</p>
+        <p>Ingressos Restantes: <span class="ingressosRestantes">100</span></p>
+        <button class="comprar-ingresso-button" onclick="abrirModal(event, this)">Comprar Ingresso</button>
+      </section>
+
+      <section class="event" data-evento="Evento 2">
+        <img src="img/Rock_In_Rio.jpeg" alt="Evento 2">
+        <h3>Evento 2</h3>
+        <p>Data: 15 de novembro de 2023</p>
+        <p>Local: Localização do Evento 2</p>
+        <p>Descrição: DESCRIÇÃO DO EVENTO 2.</p>
+        <p>Ingressos Restantes: <span class="ingressosRestantes">200</span></p>
+        <button class="comprar-ingresso-button" onclick="abrirModal(event, this)">Comprar Ingresso</button>
+      </section>
+
+      <section class="event" data-evento="Evento 3">
+        <img src="img/Lolapaloza.jpg" alt="Evento 3">
+        <h3>Evento 3</h3>
+        <p>Data: 20 de dezembro de 2023</p>
+        <p>Local: Localização do Evento 3</p>
+        <p>Descrição: DESCRIÇÃO DO EVENTO 3.</p>
+        <p>Ingressos Restantes: <span class="ingressosRestantes">150</span></p>
+        <button class="comprar-ingresso-button" onclick="abrirModal(event, this)">Comprar Ingresso</button>
+      </section>
+    </section>
+  </main>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <h2>Comprar Ingresso</h2>
+      <p>Evento: <span id="nomeEventoModal"></span></p>
+      <p>Quantidade: <input type="number" id="quantidadeIngressos" min="1"></p>
+      <button onclick="comprarIngresso()">Confirmar Compra</button>
+      <button onclick="fecharModal()">Fechar</button>
+    </div>
+  </div>
+
+  <script src="js/modal.js"></script>
+  <footer class="footer">
+    &copy; 2023 Gerenciamento de Eventos - Todos os direitos reservados
+  </footer>
+</body>
+
+</html>
